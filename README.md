@@ -37,6 +37,7 @@ pip3 install -e .
 
 ### Object structure
 ```
+robot-6axis-task
 ├── Readme.md                   // Task Description                  
 ├── sixarobot                   // Application
 │   ├── tests
@@ -102,7 +103,7 @@ A simply example was wrote in `test.py`.
 If you want to set the custormized robot model in Robotics Toolbox Python:
 
  1. find the path of the package you installed, copy `Myrobot.py` datei and put in `roboticstoolbox\models\DH` folder.
- 2.  In DH folder ipen `__init__.py` and add
+ 2.  In DH folder ipen `__init__.py` and add:
     ```python
     from roboticstoolbox.models.DH.MyRobot import MyRobot
     __all__ = ['Myrobot']
@@ -135,11 +136,11 @@ At the same time will generate a gif to reappear the simulation result.
 ```python
 [q, qd] = robot.trapvel_Jtraj(qs, qe, steps, endtime, v_max, a_max)
 ```
-q:  joint space trajectories (List[])
-qd: joint velocity (List[])
-qs: start pose (List[])
-qe: target pose (List[])
-steps: interpolation number 
-endtime: the movement time 
-v_max: maximal velocity of each joint (List[])
-a_max: maximal accelaration of each joint (List[])
+- q:  joint space trajectories (List[])
+- qd: joint velocity (List[])
+- qs: start pose (List[])
+- qe: target pose (List[])
+- steps: interpolation number 
+- endtime: the movement time 
+- v_max: maximal velocity of each joint (List[])
+- a_max: maximal accelaration of each joint (List[])
