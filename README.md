@@ -67,22 +67,22 @@ This is the test units with Python `unittest` Framework.
  familiar with C and C++, and in the future, if possible, I hope to use C++ to build low-level 
  code in order to achieve higher computational efficiency and real-time performance.
 
-- Robot configuration method
+- Robot configuration method\
  Robot configuration is based on DH-Parameters method. If the task needed, I can also utilize serial ETH 
  method or utilize the general URDF datei to construct this robot. Considering the task goal that not 
  including the dynamics so I chose DH-Parameters method to construct the 6-axis robot.
 
-- Task completion
-  Task 1-4 are accomplished, Taks 5 is not accomplished.
+- Task completion\
+Task 1-4 are accomplished, Taks 5 is not accomplished.
 
- Task 4: 
+ Task 4:\
   Considering the time constraints, I did not refine the boundary condition issues, and this is 
   just a simple example. The Robotics Toolbox Python provides a method for trajectory generation, which 
   uses a polynomial approach to construct a trajectory interpolation for smooth motion. This method is 
   well-established and stable, so in the final motion generation, I prioritized using the trajectory 
   generation method provided by the toolbox. 
 
- Task 5:
+ Task 5:\
   Firstly, due to time constraints, and secondly, because there is some ambiguity in the task description. 
   The task description mentions avoiding collisions in the robot's workspace, but considering the potential 
   for collisions within the robotic arm itself, I have not yet completed Task 5. Here, I will only provide 
@@ -104,6 +104,7 @@ If you want to set the custormized robot model in Robotics Toolbox Python:
 
  1. find the path of the package you installed, copy `Myrobot.py` datei and put in `roboticstoolbox\models\DH` folder.
  2.  In DH folder ipen `__init__.py` and add:
+
     ```python
     from roboticstoolbox.models.DH.MyRobot import MyRobot
     __all__ = ['Myrobot']
