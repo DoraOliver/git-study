@@ -1,11 +1,11 @@
 # 6-Axis-Robot Task by Sereact
-===============================
+Author: Wei Cao
 
 ## Contents
 
--[Development Framwork](#1)
--[Object Descripition](#2)
--[Simple User Guide](#3)
+- [Development Framwork](#1)
+- [Object Descripition](#2)
+- [Simple User Guide](#3)
 
 ## Dependencies
 
@@ -40,9 +40,9 @@ pip3 install -e .
 ├── Readme.md                   // Task Description                  
 ├── sixarobot                   // Application
 │   ├── tests
-│   │   ├── test_robot.py       // Test Units
+│   │   └── test_robot.py       // Test Units
 │   ├── MyRobot.py              // Robot configuration
-│   ├── test.py                 // test
+│   └── test.py                 // test
 
 In the task Folder:
 ```python
