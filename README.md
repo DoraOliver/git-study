@@ -103,7 +103,7 @@ A simply example was wrote in `test.py`.
 If you want to set the custormized robot model in Robotics Toolbox Python:
 
  1. find the path of the package you installed, copy `Myrobot.py` datei and put in `roboticstoolbox\models\DH` folder.
- 2.  In DH folder ipen `__init__.py` and add:
+ 2. In DH folder ipen `__init__.py` and add:
     ```python
     from roboticstoolbox.models.DH.MyRobot import MyRobot
     __all__ = ['Myrobot']
