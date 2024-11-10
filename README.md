@@ -36,13 +36,14 @@ pip3 install -e .
 ## Object Description
 
 ### Object structure
-
+```
 ├── Readme.md                   // Task Description                  
 ├── sixarobot                   // Application
 │   ├── tests
 │   │   └── test_robot.py       // Test Units
 │   ├── MyRobot.py              // Robot configuration
 │   └── test.py                 // test
+```
 
 In the task Folder:
 ```python
