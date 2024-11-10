@@ -73,7 +73,7 @@ This is the test units with Python `unittest` Framework.
  including the dynamics so I chose DH-Parameters method to construct the 6-axis robot.
 
 - Task completion
- Task 1-4 are accomplished, Taks 5 is not accomplished.
+  Task 1-4 are accomplished, Taks 5 is not accomplished.
 
  Task 4: 
   Considering the time constraints, I did not refine the boundary condition issues, and this is 
