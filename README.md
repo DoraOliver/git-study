@@ -108,12 +108,12 @@ If you want to set the custormized robot model in Robotics Toolbox Python:
     from roboticstoolbox.models.DH.MyRobot import MyRobot
     __all__ = ['Myrobot']
     ```
- 3. Then you can use the method shown below to create the robot.
+ 4. Then you can use the method shown below to create the robot.
     ```python
     import roboticstoolbox as rtb
     robot = rtb.models.DH.Myrobot()
     ```
- 4. The normal import method also can create the robot.
+ 5. The normal import method also can create the robot.
     ```python
     from Myrobot import MyRobot
     robot = Myrobot()
