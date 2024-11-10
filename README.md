@@ -60,7 +60,7 @@ This is the test units with Python `unittest` Framework.
 
 ### Details Description
 
-- Library Select
+- Library Select\
  Considering the objectives and requirements of the task, this project uses the **Robotics Toolbox 
  Python** library to complete the project. This library is developed by the same group that created 
  the toolbox I used in my graduation project, so there are many similar usage processes. I am more 
